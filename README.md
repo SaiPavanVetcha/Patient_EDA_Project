@@ -1,63 +1,69 @@
-# Patient_EDA_Project
-Data analytics project using Python to uncover insights from patient arrival and service data.
+# 🏥 Hospital Patient Data Analysis (2025)
 
+A comprehensive analysis of 1,000 hospital patient records conducted using Python, Pandas, NumPy, Matplotlib, and Seaborn. This project demonstrates core analytics skills relevant for Data Analyst internships, including data cleaning, EDA, visualizations, and performance insights.
 
-📊 Patient EDA Project
+---
 
-A data analytics project using Python to uncover insights from hospital patient demographics, service distribution, satisfaction levels, and monthly trends. This project demonstrates essential Exploratory Data Analysis (EDA) skills suitable for data analyst internships.
+## 📘 Project Objectives
+- Analyze patient demographics and satisfaction
+- Study monthly patient arrival trends
+- Compare performance across services (ICU, Surgery, etc.)
+- Evaluate variability and correlation across patient metrics
+- Build feature engineering such as length of stay and satisfaction level
 
-📁 Project Overview
+---
 
-This project analyzes 1,000 patient records, focusing on:
+## 🧰 Tech Stack
+- Python  
+- Pandas, NumPy  
+- Matplotlib, Seaborn  
+- Jupyter Notebook  
 
-Monthly patient arrivals
+---
 
-Service-wise patient distribution
+## 🧹 Data Preparation
+- Converted date columns to datetime
+- Added `length_of_stay` feature
+- Classified satisfaction scores into:
+  - Poor  
+  - Average  
+  - Good  
+  - Excellent  
 
-Length of stay patterns
+---
 
-Satisfaction score classification
+## 📊 Key Visualizations
+- Histograms for age, satisfaction, length of stay  
+- Monthly patient arrival trends (bar + line charts)  
+- Satisfaction by service (count plot)  
+- Correlation heatmap  
+- Service-wise variability (boxplot)  
+- Service distribution (pie chart)  
 
-Variability in satisfaction using boxplots
+---
 
-Correlation between key metrics
+## ⭐ Findings
+- Monthly arrivals peak during **Aug–Oct**  
+- **Emergency & Surgery** have the highest patient loads  
+- Avg satisfaction = **79.6**, range 60–99  
+- ICU & Emergency show high variability  
+- Avg length of stay = **7.4 days**  
 
-🛠️ Tools & Libraries
+---
 
-Python
+## 🎯 Recommendations
+- Allocate more staff during peak months  
+- Investigate variability in ICU/Emergency satisfaction  
+- Improve wait-time management  
+- Build ongoing dashboards for service monitoring  
 
-Pandas
+---
 
-NumPy
+## 📂 Files Included
+- `patients.csv` (dataset)  
+- `hospital_analysis.ipynb` (full notebook)  
 
-Matplotlib
+---
 
-Seaborn
-
-Jupyter Notebook
-
-📊 Key Features
-
-Cleaned and processed raw patient data
-
-Created a custom satisfaction classification system
-
-Visualized monthly patient volume (bar & line charts)
-
-Analyzed service-level performance
-
-Generated heatmaps and boxplots for variability
-
-Identified trends and actionable insights
-
-📈 Insights Summary
-
-Patient volume peaks between August–October
-
-Surgery & Emergency receive the highest volume
-
-Average stay: 7.4 days
-
-Satisfaction varies significantly across services
-
-Wide age range (0–89 years) indicates diverse patient population
+## 🧑‍💼 Author
+Your Name — Aspiring Data Analyst
