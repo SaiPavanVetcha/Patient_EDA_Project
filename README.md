@@ -62,8 +62,3 @@ A comprehensive analysis of 1,000 hospital patient records conducted using Pytho
 ## 📂 Files Included
 - `patients.csv` (dataset)  
 - `hospital_analysis.ipynb` (full notebook)  
-
----
-
-## 🧑‍💼 Author
-Vetcha Venkata Sai Pavan — Aspiring Data Analyst
