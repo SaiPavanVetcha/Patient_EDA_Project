@@ -58,12 +58,16 @@ A comprehensive analysis of 1,000 hospital patient records conducted using Pytho
 - Build ongoing dashboards for service monitoring  
 
 ---
+## 📊 Power BI Dashboard Preview
+
+![Dashboard](powerbi/Screenshots/dashboard.png)
+
+---
 
 ## 📂 Files Included
 
 - `datasets/patients.csv` – Raw dataset  
 - `Notebooks/hospital_analysis.ipynb` – Full data analysis notebook  
 - `powerbi/Hospital_Dashboard.pbix` – Power BI dashboard file
-- ![Dashboard](powerbi/screenshots/dashboard.png)
 - `powerbi/screenshots/dashboard.png` – Dashboard preview image  
 
